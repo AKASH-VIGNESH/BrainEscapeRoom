@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7d9bdd8b.css",
+    "main.js": "/static/js/main.e0936b1d.js",
+    "static/js/488.2ecb99ed.chunk.js": "/static/js/488.2ecb99ed.chunk.js",
+    "static/media/download.png": "/static/media/download.5ea4f007887abd66529b.png",
+    "static/media/Ellipse11.png": "/static/media/Ellipse11.20f2f4755d37fae7a01a.png",
+    "static/media/mathler-rule.png": "/static/media/mathler-rule.0e0171d47ee0b7f961b0.png",
+    "static/media/wordle- rule.png": "/static/media/wordle- rule.b4e82c5250dca56e5aa3.png",
+    "static/media/header.png": "/static/media/header.05ff60e62bc5379b804d.png",
+    "index.html": "/index.html",
+    "main.7d9bdd8b.css.map": "/static/css/main.7d9bdd8b.css.map",
+    "main.e0936b1d.js.map": "/static/js/main.e0936b1d.js.map",
+    "488.2ecb99ed.chunk.js.map": "/static/js/488.2ecb99ed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d9bdd8b.css",
+    "static/js/main.e0936b1d.js"
+  ]
+}
