@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&display=swap');
+
+*{
+    font-family: Manrope;
+}
+
+.headerImg{
+    width: 100%;
+}
+
+h1.Br-title {
+    color: rgb(167, 11, 11);
+    font-size: 56px;
+    margin-bottom: -4px;
+    letter-spacing: -1.99px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-left: 5px;
+}
+
+p.main-banner-subtitles {
+    width: 51ch;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+}
+
+.gate {
+    height: 350px;
+    width: 300px;
+    border: 8px solid red;
+    border-radius: 25px;
+    align-content: center;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(167, 11, 11);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+
+.gate:hover{
+    background-color: red;
+    color: white;
+}
+
+
+.home-nav{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.backdrop-shadow{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+    top: -250px;
+}
+
+.first-banner-home{
+    height: 900px;
+    overflow: hidden;
+}
+
+.round-title{
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.gate-head-content{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: -1.5px;
+    margin-top: 0;
+}

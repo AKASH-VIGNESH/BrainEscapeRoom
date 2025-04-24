@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&display=swap');
+
+*{
+    font-family: Manrope;
+}
+
+.wordle-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.game-board {
+    display: grid;
+    gap: 10px;
+    margin: 0 !important;
+    margin:auto;
+    width: fit-content;
+}
+
+.row {
+    display: flex;
+    gap: 2px;
+    margin-bottom: -5px;
+}
+
+.tile {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #ccc;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    outline: black;
+    background-color: #ccc;
+}
+
+.correct {
+    background-color: green;
+    color: white;
+}
+
+.close {
+    background-color: rgb(255, 208, 0);
+    color: white;
+}
+
+.stats-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px gray;
+    text-align: center;
+    z-index: 1000;
+}
+
+.stats-popup button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+.incorrect {
+    background-color: grey;
+    color: white;
+}
+
+.start-button, .submit-button, .stats-button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.rules-img{
+    width: 800px;
+    height: 690px;
+    z-index: 0;
+}
+.start-button{
+    position: relative;
+    top: -135px;
+    left: 270px;
+    font-family: Manrope !important;
+    font-weight: 800;
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+*{
+    font-family: Manrope;
+}
+.Wordle-title{
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: rgb(129, 9, 9);
+}
+
+.worldle-background{
+    width: 650px;
+    position: relative;
+    top: -200px;
+    z-index: -1;
+}
+
+.wordle-flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.wordle-input{
+    height: 40px;
+    width: 200px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.submit-button{
+    background-color: white;
+    border: 1px solid black;
+    outline: none;
+    color: black;
+    border-radius: 35px;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 15px;
+}
+.stats-button{
+    border: none;
+    outline: none;
+    height: fit-content;
+    background-color: white;
+    text-transform: lowercase;
+    font-weight: 800;
+    color: gray;
+}
+.input-wordle-outer{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+}
+
+.timer-stats{
+    height: fit-content;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-start;
+}
+.wordly-footer{
+    margin-top: 80px;
+    background-color: red;
+}
+.wordle-ingame-rule{
+    width: 800px;
+    box-shadow: 0px 0px  1px 0px black ;
+}
+
+.time-clock{
+    font-family: Manrope;
+    font-weight: 900;
+
+}
+
+.greet-img{
+    height: 400px;
+}
+.greetings{
+    color: rgb(194, 5, 5);
+    font-family: Manrope;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.greet-content-outer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 900px;
+    margin-bottom: 0px;
+}
+.close-stat{
+    width: 120px;
+    border-radius: 8px;
+    background-color: #fff;
+    color: black;
+    font-family: Manrope;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-right: 10px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle Clone</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Wordle Clone</h1>
+    </header>
+    <main>
+        <button id="start-game-btn">Start Game</button>
+        <div class="game-board">
+            <!-- Rows will be generated dynamically -->
+        </div>
+        <input type="text" id="guess-input" maxlength="5" autocomplete="off">
+        <button id="submit-btn">Submit</button>
+        <span id="timer-display">Timer: <span id="elapsed-time">00:00:00</span></span>
+        <div class="stats-container">
+            <button id="stats-btn">Stats</button>
+            <div class="stats-modal" id="stats-modal">
+                <div class="stats-content">
+                    <span id="play-count">Played: <span id="played">0</span></span>
+                    <span id="total-playtime">Total Playtime: <span id="total-playtime-display">00:00:00</span></span>
+                    <button id="close-stats-btn">Close</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>
